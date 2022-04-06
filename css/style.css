@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+
+}
+
+body{
+    margin: 0;
+}
+.container{
+    margin: auto;
+    width: 60%;
+    margin: auto;
+}
+header{
+    background-color: #4c659e;
+    padding: 20px 0;
+    padding-bottom: 10px;
+}
+header h1{
+    margin:0;
+    color: #fff;
+    float: left;
+    font-size: 45px;
+}
+header form{
+    float: right;
+}
+header form label, header form input{
+    display: block;
+    color:#fff;
+}
+form .form-group{
+    float:left;
+    margin: 0 5px;
+}
+form .form-group input{
+    padding: 5px;
+}
+form .form-group a{
+    color:#fff;
+    text-decoration: none;
+}
+form .btn{
+    margin-top: 18px;
+    background:#4c659e;
+    margin-left: 10px;
+    border: 1px solid #2a4276;
+    padding: 10px;
+    cursor: pointer;
+}
+section{
+    background: #F2F3F8;
+    padding-top: 90px;
+    height: 90vh;
+}
+section .group p {
+    margin-top: 0;
+}
+
+section .form, section .group{
+    float: left;
+    width: 50%;
+}
+section .group p{
+    font-size: 24px;
+    line-height: 1.6;
+}
+section .group img{
+    height: 220px;
+    width: 80%;
+}
+.form h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 40px;
+}
+.form #free{
+    font-size: 20px;
+    margin: 0;
+    margin-bottom: 10px;
+
+}
+.form input{
+    display: block;
+    padding: 15px 10px;
+    border-radius: 5px;
+    width: 100%;
+    border: 1px solid #eee;
+    margin: 10px 0;
+    color: #A9A9A9;
+}
+.form input::placeholder{
+    color: #A9A9A9;
+    font-weight: bolder;
+
+}
+.birthdate-label{
+    margin-top: 20px;
+    display: inline-block;
+}
+
+.form .w-50{
+    float:left;
+    width:49%;
+
+}
+.form .w-50:first-of-type{
+ margin-right: 2%;
+}
+.form .d-inline{
+    display: inline-block;
+    width: 10%;
+
+}
+.form input[type="radio"]{
+    width: 6%;
+}
+.form input[type="submit"]{
+    background: #5E9B4D;
+    width: 40%;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bolder;
+    font-size: 17px;
+
+}
+.w-80{
+    width: 80%;
+}
